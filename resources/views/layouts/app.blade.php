@@ -13,7 +13,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         @livewireStyles
     </head>
-    <body>
+    <body class="bg-[#EFF2FB]">
         <livewire-navigasi.sidebar/>
         {{ $slot }}
         @livewireScripts
