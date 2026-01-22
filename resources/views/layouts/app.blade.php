@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CDN untuk flowbite dan Icon -->
+        <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+        
+        <title>Awika Heater || Hangatkan Badanmu</title>
+
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @livewireStyles
+    </head>
+    <body>
+        <livewire-navigasi.sidebar/>
+        {{ $slot }}
+        @livewireScripts
+        <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>
