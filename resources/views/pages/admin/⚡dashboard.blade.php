@@ -134,46 +134,10 @@ new class extends Component
 
         <!-- Count -->
         <div class="grid grid-cols-12 mt-5 gap-6">
-            <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                <div class="p-10 bg-white rounded-2xl shadow-xl">
-                    <div class="flex flex-row">
-                        <i class="fa-solid fa-percent text-6xl text-red-500"></i>
-                        <i class="fa-solid fa-angle-right ms-auto"></i>
-                    </div>
-                    <p class="text-lg font-semibold text-gray-400 mt-5 mb-3">Total Kupon Diskon <br>tersedia di outlet</p>
-                    <p class="text-4xl font-semibold text-[#424954]">100 Item</p>
-                </div>
-            </div>
-            <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                <div class="p-10 bg-white rounded-2xl shadow-xl">
-                    <div class="flex flex-row">
-                        <i class="fa-solid fa-percent text-6xl text-red-500"></i>
-                        <i class="fa-solid fa-angle-right ms-auto"></i>
-                    </div>
-                    <p class="text-lg font-semibold text-gray-400 mt-5 mb-3">Total Kupon Diskon <br>tersedia di outlet</p>
-                    <p class="text-4xl font-semibold text-[#424954]">100 Item</p>
-                </div>
-            </div>
-            <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                <div class="p-10 bg-white rounded-2xl shadow-xl">
-                    <div class="flex flex-row">
-                        <i class="fa-solid fa-percent text-6xl text-red-500"></i>
-                        <i class="fa-solid fa-angle-right ms-auto"></i>
-                    </div>
-                    <p class="text-lg font-semibold text-gray-400 mt-5 mb-3">Total Kupon Diskon <br>tersedia di outlet</p>
-                    <p class="text-4xl font-semibold text-[#424954]">100 Item</p>
-                </div>
-            </div>
-            <div class="xl:col-span-3 md:col-span-6 col-span-12">
-                <div class="p-10 bg-white rounded-2xl shadow-xl">
-                    <div class="flex flex-row">
-                        <i class="fa-solid fa-percent text-6xl text-red-500"></i>
-                        <i class="fa-solid fa-angle-right ms-auto"></i>
-                    </div>
-                    <p class="text-lg font-semibold text-gray-400 mt-5 mb-3">Total Kupon Diskon <br>tersedia di outlet</p>
-                    <p class="text-4xl font-semibold text-[#424954]">100 Item</p>
-                </div>
-            </div>
+            <livewire-card.card-variant-1 icon="fa-solid fa-percent text-red-500" deskripsi="Total item yang dimiliki di gudang" :item="100"/>
+            <livewire-card.card-variant-1 icon="fa-solid fa-percent text-red-500" deskripsi="Total item yang dimiliki di gudang" :item="100"/>
+            <livewire-card.card-variant-1 icon="fa-solid fa-percent text-red-500" deskripsi="Total item yang dimiliki di gudang" :item="100"/>
+            <livewire-card.card-variant-1 icon="fa-solid fa-percent text-red-500" deskripsi="Total item yang dimiliki di gudang" :item="100"/>
         </div>
     </div>
 </div>

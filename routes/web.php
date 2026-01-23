@@ -7,3 +7,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::livewire('/admin/dashboard', 'pages::admin.dashboard');
+Route::livewire('/admin/barang', 'pages::admin.barang');

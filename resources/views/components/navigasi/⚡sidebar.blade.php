@@ -16,12 +16,12 @@ new class extends Component
             </a>
             <ul class="flex flex-col gap-10 my-auto">
                 <li class="mx-auto">
-                    <a href="" class="px-10 py-4 text-xl text-[#424954] border-r-4 border-transparent hover:border-[#4C7BC3] hover:bg-gradient-to-l from-[#bfcee8] to-transparenthover:text-[#4C7BC3] transition-all duration-300">
+                    <a href="/admin/dashboard" wire:navigate class="px-10 py-4 text-xl text-[#424954] border-r-4 border-transparent hover:border-[#4C7BC3] hover:bg-gradient-to-l from-[#bfcee8] to-transparenthover:text-[#4C7BC3] transition-all duration-300">
                         <i class="fa-solid fa-house"></i>
                     </a>
                 </li>
                 <li class="mx-auto">
-                    <a href="" class="px-10 py-4 text-xl text-[#424954] border-r-4 border-transparent hover:border-[#4C7BC3] hover:bg-gradient-to-l from-[#bfcee8] to-transparenthover:text-[#4C7BC3] transition-all duration-300">
+                    <a href="/admin/barang" wire:navigate class="px-10 py-4 text-xl text-[#424954] border-r-4 border-transparent hover:border-[#4C7BC3] hover:bg-gradient-to-l from-[#bfcee8] to-transparenthover:text-[#4C7BC3] transition-all duration-300">
                         <i class="fa-solid fa-water"></i>
                     </a>
                 </li>
