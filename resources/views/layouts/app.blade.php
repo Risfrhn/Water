@@ -26,7 +26,11 @@
         </style>
     </head>
     <body class="bg-[#EFF2FB]">
-        <livewire-navigasi.sidebar/>
+        @if(Auth::check())
+            <livewire-navigasi.sidebar/>
+        @else
+            <livewire-navigasi.navigasi-bar/>
+        @endif
         <div class="px-10 py-5 md:ml-30">
             {{ $slot }}
         </div>

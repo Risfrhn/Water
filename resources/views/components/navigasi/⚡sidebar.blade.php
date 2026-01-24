@@ -26,13 +26,13 @@ new class extends Component
                     </a>
                 </li>
                 <li class="mx-auto">
-                    <a href="" class="px-10 py-4 text-xl text-[#424954] border-r-4 border-transparent hover:border-[#4C7BC3] hover:bg-gradient-to-l from-[#bfcee8] to-transparenthover:text-[#4C7BC3] transition-all duration-300">
-                        <i class="fa-brands fa-blogger"></i>
+                    <a href="/admin/blog" wire:navigate class="px-10 py-4 text-xl text-[#424954] border-r-4 border-transparent hover:border-[#4C7BC3] hover:bg-gradient-to-l from-[#bfcee8] to-transparenthover:text-[#4C7BC3] transition-all duration-300">
+                        <i class="fa-solid fa-paper-plane"></i>
                     </a>
                 </li>
                 <li class="mx-auto">
-                    <a href="" class="px-10 py-4 text-xl text-[#424954] border-r-4 border-transparent hover:border-[#4C7BC3] hover:bg-gradient-to-l from-[#bfcee8] to-transparenthover:text-[#4C7BC3] transition-all duration-300">
-                        <i class="fa-solid fa-receipt"></i>
+                    <a href="/admin/promo" wire:navigate class="px-10 py-4 text-xl text-[#424954] border-r-4 border-transparent hover:border-[#4C7BC3] hover:bg-gradient-to-l from-[#bfcee8] to-transparenthover:text-[#4C7BC3] transition-all duration-300">
+                        <i class="fa-solid fa-tags"></i>
                     </a>
                 </li>
             </ul>

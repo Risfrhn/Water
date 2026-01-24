@@ -4,7 +4,7 @@ use Livewire\Component;
 
 new class extends Component
 {
-    
+    //
 };
 ?>
 
@@ -33,10 +33,10 @@ new class extends Component
     <div class="grid grid-cols-12 items-center my-10">
         <div class="col-span-6">
             <div class="flex flex-row gap-2">
-                <i class="text-xl text-[#4C7BC3] fa-solid fa-box-archive content-center py-2 px-3 bg-white shadow-lg rounded-lg"></i>
+                <i class="text-xl text-[#4C7BC3] fa-solid fa-tags content-center py-2 px-3 bg-white shadow-lg rounded-lg"></i>
                 <div class="flex flex-col">
-                    <p class="text-xl font-extrabold content-center">Barang</p>
-                    <p class="text-sm font-extrabold text-gray-400 content-center">Control Barang</p>
+                    <p class="text-xl font-extrabold content-center">Promo</p>
+                    <p class="text-sm font-extrabold text-gray-400 content-center">Control Promo</p>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@ new class extends Component
             <div class="flex flex-row gap-2">
                 <div class="me-auto"></div>
                 <livewire-button.button-variant-2-responsive class="me-auto" type="#" judul="Export data" warna="bg-white" warnaTulisan="gray-400" icon="fa-solid fa-cloud-arrow-down"/>            
-                <livewire-button.button-variant-2-responsive class="me-auto" type="#" judul="Tambah Barang" warna="bg-[#4C7BC3]" icon="fa-solid fa-plus"/>
+                <livewire-button.button-variant-2-responsive class="me-auto" type="#" judul="Tambah data" warna="bg-[#4C7BC3]" icon="fa-solid fa-plus"/>
             </div>
         </div>
     </div>
