@@ -27,7 +27,9 @@
     </head>
     <body class="bg-[#EFF2FB]">
         <livewire-navigasi.sidebar/>
-        {{ $slot }}
+        <div class="px-10 py-5 md:ml-30">
+            {{ $slot }}
+        </div>
         @livewireScripts
         <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
