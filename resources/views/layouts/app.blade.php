@@ -11,7 +11,9 @@
         <!-- font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+
+        
 
         <!-- title -->
         <title>Awika Heater || Hangatkan Badanmu</title>
@@ -21,7 +23,7 @@
 
         <style>
             body {
-                font-family: 'Varela Round', sans-serif;
+                font-family: 'Google Sans', sans-serif;
             }
         </style>
     </head>
@@ -31,10 +33,10 @@
         @else
             <livewire-navigasi.navigasi-bar/>
         @endif
-        <div class="px-10 py-5 md:ml-30">
-            {{ $slot }}
-        </div>
-        @livewireScripts
+        
+        {{ $slot }}
+        
+        @livewireScripts    
         <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
