@@ -9,31 +9,39 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
-
+body {
+    overflow-x: hidden; /* Cuma horizontal yang dipotong */
+    overflow-y: auto; /* Vertical tetap bisa scroll */
+}
 .steam-container {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 900vh;
     pointer-events: none;
-    overflow: hidden;
+    overflow: visible;
+    z-index: 0;
 }
 
 /* Base layer - kumpulan asap lebar di bawah */
 .base-smoke {
     position: absolute;
-    bottom: -20px;
+    bottom: -500px;
     left: 0;
     width: 100%;
-    height: 600px;
+    height: 900px;
     background: linear-gradient(to top, 
-        rgba(120, 150, 200, 0.8) 0%, 
-        rgba(130, 160, 210, 0.6) 30%,
-        rgba(140, 170, 220, 0.3) 60%,
+        transparent 0%,
+        rgba(120, 150, 200, 0.2) 3%,
+        rgba(120, 150, 200, 0.5) 8%,
+        rgba(120, 150, 200, 0.8) 12%, 
+        rgba(130, 160, 210, 0.6) 35%,
+        rgba(140, 170, 220, 0.3) 65%,
         transparent 100%);
     filter: blur(30px);
     animation: baseWave 4s ease-in-out infinite;
+    z-index: 0;
 }
 
 @keyframes baseWave {
@@ -50,12 +58,13 @@
 .steam {
     position: absolute;
     bottom: 0;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background: radial-gradient(ellipse at center, rgba(110, 140, 190, 0.7) 0%, rgba(120, 150, 200, 0.4) 40%, rgba(130, 160, 210, 0.1) 70%);        border-radius: 50%;
     filter: blur(25px);
     animation: rise linear infinite;
     opacity: 0;
+    z-index: 0;
 }
 
 /* Variasi uap untuk efek lebih natural */
@@ -64,6 +73,7 @@
     width: 250px;
     height: 250px;
     animation-duration: 7s;
+    z-index: 0;
     animation-delay: 0s;
 }
 
@@ -72,6 +82,7 @@
     width: 280px;
     height: 280px;
     animation-duration: 9s;
+    z-index: 0;
     animation-delay: 1.5s;
 }
 
@@ -80,6 +91,7 @@
     width: 220px;
     height: 220px;
     animation-duration: 8s;
+    z-index: 0;
     animation-delay: 3s;
 }
 
@@ -88,6 +100,7 @@
     width: 300px;
     height: 300px;
     animation-duration: 10s;
+    z-index: 0;
     animation-delay: 0.5s;
 }
 
@@ -96,6 +109,7 @@
     width: 240px;
     height: 240px;
     animation-duration: 8.5s;
+    z-index: 0;
     animation-delay: 2s;
 }
 
@@ -104,6 +118,7 @@
     width: 270px;
     height: 270px;
     animation-duration: 9.5s;
+    z-index: 0;
     animation-delay: 1s;
 }
 
@@ -112,6 +127,7 @@
     width: 260px;
     height: 260px;
     animation-duration: 9.2s;
+    z-index: 0;
     animation-delay: 2.5s;
 }
 
@@ -120,6 +136,7 @@
     width: 230px;
     height: 230px;
     animation-duration: 8.8s;
+    z-index: 0;
     animation-delay: 3.5s;
 }
 
@@ -128,6 +145,7 @@
     width: 290px;
     height: 290px;
     animation-duration: 10.5s;
+    z-index: 0;
     animation-delay: 1.2s;
 }
 
@@ -136,6 +154,7 @@
     width: 250px;
     height: 250px;
     animation-duration: 9.8s;
+    z-index: 0;
     animation-delay: 0.8s;
 }
 
