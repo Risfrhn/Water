@@ -10,11 +10,10 @@ new class extends Component
 
 <div>
     <nav class="bg-[#EFF2FB]/5 backdrop-blur-xl fixed w-full z-20 top-0 start-0">
-        <div class="container mx-auto">
-            <div class="flex flex-wrap items-center justify-between py-4">
-                <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-7" alt="Flowbite Logo" />
-                    <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Flowbite</span>
+        <div class="container mx-auto px-20">
+            <div class="flex flex-wrap items-center justify-between py-2">
+                <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="{{asset('/logo-no-bg.png')}}" class="h-16" alt="Flowbite Logo" />
                 </a>
                 <div class="flex items-center gap-2 md:order-2">
                     <div class="py-1.5 px-5 bg-transparent border-2 border-[#4C7BC3] text-[#4C7BC3] hover:bg-[#4C7BC3] rounded-lg hover:text-white transition all duration-300">
